@@ -1,11 +1,11 @@
 package edu.bsu.cs.hergin.cs691.checkstyle;
 
 /**
- * 
+ * Javadoc summary goes here. 
  * @author nwhite
  *
  */
-public class ATM {
+public class Atm {
 
   private double balance;
 
@@ -16,12 +16,12 @@ public class ATM {
   /*
    * This class is licensed with GPL.
    */
-  public ATM(double initialBalance) {
+  public Atm(double initialBalance) {
     this.balance = initialBalance;
   }
 
   /**
-   * 
+   * A brief summary.
    * @param amnt specifies the amount to be deposited.
    * @return
    */
@@ -36,7 +36,7 @@ public class ATM {
   }
 
   /**
-   * 
+   * Also a summary.
    * @param amount specifies the amount to be withdrawn.
    * @return
    */
