@@ -15,26 +15,25 @@ public class atM {
   public atM(double initialBalance) {
     this.balance = initialBalance;
   }
-
+  
   /**
-   * Verify the deposit is a non-negative amount and add it to the account.
-   * @param amnt amount of the money to be deposited.
-   * @return true add the amount to the account.
+   * Deposits money into account.
+   * @param amnt amount of money to be deposited.
+   * @return true.
    */
   public boolean deposit(double amnt) {
-	  if (amnt < 0) {
-		  return false;
-      }
-  
+    if (amnt < 0) {
+      return false;
+    }
     this.balance += amnt;
     return true;
   }
 
-  // this class does withdraw
+  // This class does withdraw.
   /**
-   * Verify if enough money is in the account to cover the withdraw, and if so, deduct it from the account.
+   * Withdraws money from account.
    * @param amount the amount of money to be withdrawn.
-   * @return true deduct amount of withdraw from account.
+   * @return true.
    */
   public boolean withDraw(double amount) {
     if (amount < 0) {
@@ -48,7 +47,6 @@ public class atM {
   }
   
   public void doNothing() {
-	  
   }
 
 }
