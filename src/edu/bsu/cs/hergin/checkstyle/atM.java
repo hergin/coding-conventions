@@ -43,4 +43,11 @@ public class atM {
 		
 	}
 	
+	public void b() {
+		List<String> m = new ArrayList<String>();
+		for (int i = 0; i < m.size(); i++) {
+			System.out.println(m.get(i));
+		}
+	}
+	
 }
